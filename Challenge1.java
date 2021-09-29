@@ -18,11 +18,11 @@ public class Challenge1 extends Agent {
 	protected void setup() 
 	{
 	
-		  addBehaviour(new RegresionLineal());
+		  addBehaviour(new GradientDescent());
 		
 	}
 	
-	public class RegresionLineal extends OneShotBehaviour{
+	public class GradientDescent extends OneShotBehaviour{
 	
 	public void action(){
 	
